@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'vanessa';
+    src: url('../images/DS-DIGI.TTF'); 
+}
+
+@font-face {
+    font-family: 'dianoite';
+    src: url('../images/GoldenHillsDEMO.ttf');
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background: url('../images/praia.jpg');
+}
+
+img {
+    height: auto;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    height: auto;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.473);
+    font-size: 60px;
+    border-radius: 20px;
+    font-family: 'dianoite';
+}
+
+.calendario {
+    width: 400px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.473);
+    border-radius: 20px;
+    gap: 20px;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'vanessa';
+}
+
+.central{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.473);
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 90px;
+    font-family: 'vanessa';
+}
+
+.central div{
+        width: 100px;
+        height: 150px;
+        background: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.noite{
+    background: url('../images/night.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tarde{
+    background: url('../images/tarde.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.manha{
+    background: url('../images/manha.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
